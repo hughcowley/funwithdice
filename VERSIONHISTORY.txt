@@ -1,2 +1,14 @@
-1. 2021-06-30
+1. 2021-07-06
 Initial release
+-Added ability to choose a comparative value
+	-User can input the value directly into the code
+	-Returns error message for non-numerics
+-Added ability to choose dice to roll
+	-User can input the dice to roll directly into the code
+	-Returns error messages when receiving incompatible inputs
+-Added code to compare the rice rolled to the comparative value
+	-Outputs probability that chosen roll will equal or exceed the comparative value
+	-Outputs the minimum value, maximum value, and mean value from the simulation
+	-Tested Windows Narrator against output in Jupyter Notebook environment
+-Added code to limit number of dice (maximum = 100)
+-Added benchmarking code to test speed of simulation against given dice rolls
